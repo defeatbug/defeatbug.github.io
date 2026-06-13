@@ -1,34 +1,84 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
-hero:
-  name: "Golang中文学习文档站"
-  text: "A VitePress Site Goalng"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: 快速开始
-      link: /markdown-examples
-    - theme: alt
-      text: 文档
-      link: /api-examples
-    - theme: alt
-      text: 个人简历
-      link: /user
-
-features:
-  - title: 简洁高效
-    details: Go语言语法简洁明了，开发效率高，运行性能非常可观，支持静态编译和交叉编译，无需任何额外环境，被誉为21世纪的C语言。
-  - title: 并发而生
-    details: Go语言在多核并发上拥有天然的设计优势，因为Go语言从底层原生支持并发，且性能优越，无须任何第三方库。
-  - title: 工具完善
-    details: Go语言有一套完善且成熟的工具链，从编码到依赖，再从编译到测试，极大地提升了开发效率。
-  - title: 生态良好
-    details: Go语言的生态正在蓬勃发展，诞生了许多重量级的开源项目，例如Docker容器，K8S容器编排等。
-  - title: 应用广泛
-    details: Go语言广泛应用于云原生，区块链，Web，游戏开发等互联网科技行业，使用Go语言的行业也在逐步变多。
-  - title: 前景可期
-    details: Go在自己擅长的领域有着非常不俗的表现，发展势头十分强劲，使用人数也在逐渐增多，未来的前景十分令人看好。
 ---
 
+<div class="home-hero">
+  <h1>Learning <span style="color:var(--vp-c-brand-1)">Notes</span></h1>
+  <p class="subtitle">
+    AI · 编程 · 思考<br>
+    记录学习 MCP、LangChain 和 AI Agent 的过程。<br>
+    既是自己的笔记，也希望能帮到你。
+  </p>
+  <div class="hero-links">
+    <a class="hero-link" href="/learn/">开始学习</a>
+    <a class="hero-link" href="https://github.com/defeatbug" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</div>
+
+<div class="section-header">
+  <h2>MCP — 让 AI 连接世界</h2>
+  <a class="view-all" href="/learn/mcp/">全部</a>
+</div>
+
+<div class="card-grid">
+  <a class="card" href="/learn/mcp/0001-what-is-mcp.html">
+    <h3>MCP 核心概念</h3>
+    <p>理解 Model Context Protocol 的设计哲学：为什么 AI 需要一个"万能插头"？</p>
+    <span class="meta">Lesson 1 · 10 分钟</span>
+  </a>
+  <a class="card" href="/learn/mcp/0002-build-first-server.html">
+    <h3>动手写一个 MCP Server</h3>
+    <p>从零搭建你的第一个 MCP 服务器，暴露工具给 AI 调用。</p>
+    <span class="meta">Lesson 2 · 实操</span>
+  </a>
+  <a class="card" href="/learn/mcp/0003-mcp-langchain.html">
+    <h3>MCP + LangChain 集成</h3>
+    <p>把 MCP Server 接上 LangChain Agent，让 AI 真正干活。</p>
+    <span class="meta">Lesson 3 · 实操</span>
+  </a>
+</div>
+
+<div class="section-header">
+  <h2>LangChain & Agent</h2>
+  <a class="view-all" href="/learn/langchain/">全部</a>
+</div>
+
+<div class="card-grid">
+  <a class="card" href="/learn/langchain/0001-what-is-agent.html">
+    <h3>Agent 是什么？</h3>
+    <p>理解 AI Agent 的核心概念：模型 + 工具 + 推理循环。</p>
+    <span class="meta">Lesson 1 · 8 分钟</span>
+  </a>
+  <a class="card" href="/learn/langchain/0002-react-pattern.html">
+    <h3>ReAct 模式深入</h3>
+    <p>Reason + Act：Agent 如何"边想边做"？</p>
+    <span class="meta">Lesson 2 · 10 分钟</span>
+  </a>
+</div>
+
+<div class="section-header">
+  <h2>学习总结</h2>
+</div>
+
+<div class="card-grid">
+  <a class="card" href="/learn/summary-mcp.html">
+    <h3>MCP 学习笔记</h3>
+    <p>MCP 协议要点、常见问题、最佳实践。</p>
+    <span class="meta">持续更新</span>
+  </a>
+  <a class="card" href="/learn/summary-langchain.html">
+    <h3>LangChain 学习笔记</h3>
+    <p>LangChain 核心概念速查、常见踩坑。</p>
+    <span class="meta">持续更新</span>
+  </a>
+</div>
+
+---
+
+<h2 style="margin-top:3rem;">最近更新</h2>
+
+<ul class="timeline">
+  <li><span class="date">2026-06-13</span>搭建 MCP + LangChain 学习专区</li>
+  <li><span class="date">2026-06-13</span>完成 MCP Lesson 1：核心概念</li>
+  <li><span class="date">2025-09-10</span>搭建个人知识站点</li>
+</ul>
